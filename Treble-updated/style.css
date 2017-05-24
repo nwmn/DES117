@@ -127,6 +127,7 @@ h2 {
   font-weight: lighter;
   margin: 0px;
   padding: 0px;
+  padding-top: 20px;
 }
 
 h3 {
@@ -204,4 +205,52 @@ footer section {
 
 #social-media {
   padding-left: 40px;
+}
+
+
+/* Responsive Layout -- Extra Credit Portion -- */
+
+@media screen and (max-width: 499px) {
+  .col-6 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  #logo {
+    position: fixed;
+    top: 0px;
+    background-color: #333333;
+    width: 85%;
+  }
+  body {
+    text-align: center;
+  }
+  #about {
+    padding: 40px;
+  }
+  #about p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #app {
+    height: 600px;
+  }
+  #app img {
+    margin-bottom: 50px;
+  }
+  a {
+    background: lightgrey;
+    width: 60%;
+    height: 20px;
+    padding: 10px;
+  }
+  li {
+    margin-bottom: 20px;
+  }
+  #social-media img {
+    max-width: 15%;
+  }
 }
