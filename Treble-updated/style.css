@@ -15,6 +15,7 @@ header h2 {
   margin: 0;
 }
 
+
 /* CSS Box Model */
 
 .container {
@@ -27,6 +28,7 @@ header h2 {
   content: " ";
   display: table;
 }
+
 
 /* Fluid Grid */
 
@@ -42,6 +44,7 @@ header h2 {
   width: 100%;
 }
 
+
 /* Helper Classes */
 
 .column {
@@ -51,6 +54,7 @@ header h2 {
 .padding {
   padding: 20px;
 }
+
 
 /* Backgrounds & Section Formatting */
 
@@ -109,16 +113,18 @@ section #logo {
   margin: auto;
 }
 
+
 /* Typography & Text Formatting */
 
 body {
-  font-family: sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #FFFFFF;
   line-height: 20pt;
 }
 
 h2 {
   font-size: 36pt;
+  font-weight: lighter;
   margin: 0px;
   padding: 0px;
 }
@@ -128,13 +134,30 @@ h3 {
 }
 
 #tagline, #events-text, #gear-text {
-    text-align: center;
-    line-height: 350px;
+  text-align: center;
+  line-height: 350px;
 }
 
 #about, #app {
   font-size: 14pt;
   color: #000000;
+}
+
+#app {
+  height: 345px;
+}
+
+#about {
+  padding: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#about p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 85px;
+  margin-right: 85px;
 }
 
 #partnerships h3 {
@@ -147,11 +170,14 @@ h3 {
   padding: 0px;
 }
 
-
 #partnerships ul {
   list-style-type: none;
   padding-left: 0px;
   padding-top: 0px;
+}
+
+#partnerships li {
+  padding-bottom: 5px;
 }
 
 #partnerships a {
@@ -164,7 +190,7 @@ h3 {
 }
 
 footer .row {
-  padding-top: 25px;
+  padding-top: 35px;
 }
 
 footer section {
