@@ -190,6 +190,10 @@ h3 {
   font-size: 18pt;
 }
 
+#social-media img {
+  max-width: 18%;
+}
+
 footer .row {
   padding-top: 35px;
 }
@@ -214,7 +218,7 @@ footer section {
   .container {
     width: 100%;
   }
-  
+
   .col-6 {
     width: 100%;
   }
