@@ -270,4 +270,16 @@ footer section {
     max-width: 15%;
   }
 
+  .none {
+    background: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .none:hover {
+    background: none;
+    padding: 0px;
+    margin: 0px;
+  }
+
 }
