@@ -192,6 +192,7 @@ h3 {
 
 #social-media img {
   max-width: 18%;
+  min-width: 45px;
 }
 
 footer .row {
